@@ -34,3 +34,6 @@ class Student:
             return response.text
         else:
             return "Something went wrong with the request!"
+
+    def start_date(self):
+        self._start_date
